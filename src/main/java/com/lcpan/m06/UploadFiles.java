@@ -10,8 +10,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.Part;
 
-import org.apache.jasper.tagplugins.jstl.core.ForEach;
-
 @WebServlet("/UploadFiles")
 @MultipartConfig(location = "C:/upload/")
 public class UploadFiles extends HttpServlet {

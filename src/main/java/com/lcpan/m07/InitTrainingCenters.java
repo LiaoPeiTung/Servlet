@@ -11,8 +11,6 @@ import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
 
-import org.apache.catalina.filters.SetCharacterEncodingFilter;
-
 @WebListener
 public class InitTrainingCenters implements ServletContextListener {
 
